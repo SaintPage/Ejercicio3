@@ -5,7 +5,7 @@ public class Estudiante {
     private String fechaNacimiento;
     private String correo;
     private String codUnico;
-    private int sede;
+    private Sede sede;
 
     private Examen resultadosExamen;
 
@@ -36,7 +36,7 @@ public class Estudiante {
     public String getCodUnico() {
         return codUnico;
     }
-    public int getSede() {
+    public Sede getSede() {
         return sede;
     }
 
@@ -60,7 +60,7 @@ public class Estudiante {
     public void setCodUnico(String codUnico) {
         this.codUnico = codUnico;
     }
-    public void setSede(int sede) {
+    public void setSede(Sede sede) {
         this.sede = sede;
     }
 

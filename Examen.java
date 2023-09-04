@@ -7,6 +7,7 @@ public class Examen {
     private int compresionLectora;
     private int estadistica;
 
+    //Constructor con las clases
     public Examen (int matematicas, int lenguaje, int quimica, int fisica, int compresionLectora, int estadistica){
         this.matematicas = matematicas;
         this.lenguaje = lenguaje;
@@ -16,6 +17,7 @@ public class Examen {
         this.estadistica = estadistica;
     }
 
+    //getters y setters
     public int getMatematicas() {
         return matematicas;
     }
